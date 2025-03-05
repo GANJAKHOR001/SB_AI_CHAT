@@ -3,14 +3,14 @@ from os import getenv
 from dotenv import load_dotenv
 load_dotenv()
 
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = int(getenv("OWNER_ID", None))
-MONGO_URL = getenv("MONGO_URL", None)
-AUTH_CHANNEL = int(getenv("AUTH_CHANNEL", None))
-FSUB = getenv("FSUB", False)
-OWNER_ID = int(getenv("OWNER_ID", None))
+API_ID = int(getenv("API_ID", "20851717"))
+API_HASH = getenv("API_HASH", "0217fe5cd94ff3f4d4555b1551670144")
+BOT_TOKEN = getenv("BOT_TOKEN", "8066155350:AAF4PxOIWZih9xwgHmm5REpGj2_thc69D-Q")
+OWNER_ID = int(getenv("OWNER_ID", "7453278496"))
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://eravibes:EraVibes@eravibesxbot.npc16.mongodb.net/?retryWrites=true&w=majority&appName=EraVibesXbot")
+AUTH_CHANNEL = int(getenv("AUTH_CHANNEL", "-1002296968230"))
+FSUB = getenv("FSUB", True)
+
 
 
 
