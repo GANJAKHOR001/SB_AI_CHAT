@@ -5,7 +5,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "20851717"))
 API_HASH = getenv("API_HASH", "0217fe5cd94ff3f4d4555b1551670144")
-BOT_TOKEN = getenv("BOT_TOKEN", "8066155350:AAF4PxOIWZih9xwgHmm5REpGj2_thc69D-Q")
+BOT_TOKEN = getenv("BOT_TOKEN", "806614PxOIWZih9xwgHmm5REpGj2_thc69D-Q")
 OWNER_ID = int(getenv("OWNER_ID", "7453278496"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+")
 AUTH_CHANNEL = int(getenv("AUTH_CHANNEL", "-1002296968230"))
