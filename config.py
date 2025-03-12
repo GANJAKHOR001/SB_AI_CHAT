@@ -10,7 +10,7 @@ OWNER_ID = int(getenv("OWNER_ID", "7453278496"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Alisha:Alisha123@cluster0.yqcpftw.mongodb.net/?retryWrites=true&w=majority")
 AUTH_CHANNEL = int(getenv("AUTH_CHANNEL", "-1002296968230"))
 FSUB = getenv("FSUB", True)
-
+WEB_APP = getenv("WEB_APP", True)
 
 
 
