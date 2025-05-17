@@ -7,6 +7,5 @@ asyncio
 python-dotenv
 aiohttp
 flask==1.1.2
-Jinja2==3.0.3
 cloudscraper
 git+https://github.com/Mayuri-Chan/pyrofork
