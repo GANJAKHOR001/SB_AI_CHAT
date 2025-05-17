@@ -1,13 +1,20 @@
-from flask import Flask, request
-import os
+@ -0,0 +1,10 @@
 
-app = Flask(__name__)
+from flask import Flask
 
-port = int(os.environ.get('PORT', 8000))
+app Flask(__name__)
+
 
 @app.route('/')
-def index():
-    return 'Hello'
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=port)
+def hello_world():
+
+return 'Hello from Tamanna'
+
+
+
+
+
+if __name__ == "__main__":
+
+app.run()
