@@ -40,8 +40,8 @@ I'm here to chat, vibe, and bring some fun to your day.
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/{app.username}?startgroup=true")],
                 [
-                    InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/C0DE_SEARCH"),
-                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/AsuraaSupports")
+                    InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/ABOUT_NIGHT_SQUAD"),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/+aB3TQoPJ2dBjZGU1")
                 ],
                 [InlineKeyboardButton(text="ᴍʏ ᴄᴏᴍᴍᴀɴᴅs", callback_data="help")]
             ])
@@ -57,7 +57,7 @@ async def help(client, m: Message):
     await m.reply(
         "Need help? Click below to see all my commands.",
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("📜 ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ɢᴜɪᴅᴇ", url="http://t.me/MissAaru_Robot?start=help")]
+            [InlineKeyboardButton("📜 ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ɢᴜɪᴅᴇ", url="http://t.me/LOVE_YOU_SB_BOT?start=help")]
         ])
     )
 
@@ -81,10 +81,10 @@ I'm here to chat, vibe, and bring some fun to your day.
                 await query.message.edit_text(
                     new_text,
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url="https://t.me/MissAaru_Robot?startgroup=true")],
+                        [InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url="https://t.me/LOVE_YOU_SB_BOT?startgroup=true")],
                         [
-                            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/C0DE_SEARCH"),
-                            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/AsuraaSupports")
+                            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/ABOUT_NIGHT_SQUAD"),
+                            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/+aB3TQoPJ2dBjZGU1")
                         ],
                         [InlineKeyboardButton(text="ᴍʏ ᴄᴏᴍᴍᴀɴᴅs", callback_data="help")]
                     ])
@@ -109,7 +109,7 @@ Stay sharp, stay awesome. ✨
                     reply_markup=InlineKeyboardMarkup([
                         [
                             InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="start"),
-                            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/C0DE_SEARCH")
+                            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/ABOUT_NIGHT_SQUAD")
                         ]
                     ])
                 )
