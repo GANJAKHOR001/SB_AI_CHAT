@@ -8,5 +8,6 @@ python-dotenv
 aiohttp
 flask==1.1.2
 Jinja2==3.0.3
+gunicorn==20.1.0
 cloudscraper
 git+https://github.com/Mayuri-Chan/pyrofork
