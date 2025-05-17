@@ -1,7 +1,7 @@
 
-# Aaru ChatBot
+# Tamanna ChatBot
 
-Aaru ChatBot is an AI-powered Telegram bot designed to enhance user interactions through intelligent responses, automation, and seamless integrations. Built with Python, MongoDB, and Pyrogram, it provides a fast, secure, and extensible chat experience.
+Tamanna ChatBot is an AI-powered Telegram bot designed to enhance user interactions through intelligent responses, automation, and seamless integrations. Built with Python, MongoDB, and Pyrogram, it provides a fast, secure, and extensible chat experience.
 
 ## Features
 
