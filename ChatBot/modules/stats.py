@@ -18,8 +18,8 @@ async def stats(client: app, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url="https://t.me/MissAaru_Robot?startgroup=true"),
-                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/C0DE_SEARCH"),
+                    InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url="https://t.me/LOVE_YOU_SB_BOT?startgroup=true"),
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/II_SB_SIMPLE_II"),
                 ]
             ]
         )
