@@ -11,5 +11,5 @@ chatsdb = db["chats"]    # Chats Collection
 from .chats import *
 from .admin import *
 from .fsub import *
-from .aaru import *
+from .Tamanna import *
 from .chatbot import *
