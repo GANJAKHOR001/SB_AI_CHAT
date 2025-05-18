@@ -1,21 +1,18 @@
-from flask import Flask, request, jsonify
-from google import genai
-from dotenv import load_dotenv
+import requests
 import os
 
-load_dotenv()
-api_key = os.getenv("GEMINI_API_KEY")
+API_KEY = os.getenv("GEMINI_API_KEY")  # Or set directly
+url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
 
-genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-2.0-pro")
+headers = {
+    "Content-Type": "application/json"
+}
 
-app = Flask(__name__)
+data = {
+    "contents": [{
+        "parts": [{"text": "it's a chat bot"}]
+    }]
+}
 
-@app.route("/chat", methods=["POST"])
-def chat():
-    user_input = request.json.get("message")
-    response = model.generate_content(user_input)
-    return jsonify({"response": response.text})
-
-if __name__ == "__main__":
-    app.run(debug=True)
+response = requests.post(url, headers=headers, json=data)
+print(response.json())
