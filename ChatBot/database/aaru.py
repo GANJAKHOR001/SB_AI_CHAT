@@ -5,7 +5,7 @@ import datetime
 import cloudscraper
 
 
-class giminiflask:
+class geminiflask:
     EMOJIS = ["😊", "😂", "❤️", "🔥", "😎", "😘", "💖", "🥰", "😉", "🌟", "👍", "✨", "😜", "🤗", "😇"]
 
     SYSTEM_PROMPT = (
