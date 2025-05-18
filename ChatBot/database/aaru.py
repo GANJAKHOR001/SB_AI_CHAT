@@ -94,6 +94,16 @@ class geminiflask:
         final_reply = f"{reply} {random.choice(self.EMOJIS)}"
         self.last_message = message
         return final_reply
+import os
+import google.generativeai as genai
+
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+
+model = genai.GenerativeModel("gemini-pro")
+
+response = model.generate_content("Hello! How are you?")
+print(response.text)
+
 
 
 chatbot_api = geminiflask()
