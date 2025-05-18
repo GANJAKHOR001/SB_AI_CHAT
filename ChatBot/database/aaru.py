@@ -5,7 +5,7 @@ import datetime
 import cloudscraper
 
 
-class Gemini-1.5-flash:
+class gemini-2.0-pro:
     EMOJIS = ["😊", "😂", "❤️", "🔥", "😎", "😘", "💖", "🥰", "😉", "🌟", "👍", "✨", "😜", "🤗", "😇"]
 
     SYSTEM_PROMPT = (
@@ -19,8 +19,8 @@ class Gemini-1.5-flash:
     )
 
     def __init__(self):
-        self.url = "https://Gemini-1.5-flash"
-        self.api_endpoint = "https://Gemini-1.5-flash/wp-admin/admin-ajax.php"
+        self.url = "https://Gemini-2.0-flash"
+        self.api_endpoint = "https://gemini-2.0-flash/wp-admin/admin-ajax.php"
         self.scraper = cloudscraper.create_scraper()
         self.last_message = None
 
@@ -96,4 +96,4 @@ class Gemini-1.5-flash:
         return final_reply
 
 
-chatbot_api = Gemini-1.5-flash()
+chatbot_api = Gemini-2.0-flash()
