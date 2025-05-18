@@ -96,4 +96,4 @@ class Gemini-1.5-flash:
         return final_reply
 
 
-chatbot_api = ChatGptEs()
+chatbot_api = Gemini-1.5-flash()
