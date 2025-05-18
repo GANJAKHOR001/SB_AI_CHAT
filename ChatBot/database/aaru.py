@@ -96,4 +96,4 @@ class giminiflask:
         return final_reply
 
 
-chatbot_api = gemini-2.0-flash()
+chatbot_api = geminiflash()
