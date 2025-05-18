@@ -1,3 +1,4 @@
+google-generativeai
 pymongo
 motor
 requests
