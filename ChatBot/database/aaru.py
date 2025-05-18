@@ -5,7 +5,7 @@ import datetime
 import cloudscraper
 
 
-class ChatGptEs:
+class Gemini-1.5-flash:
     EMOJIS = ["😊", "😂", "❤️", "🔥", "😎", "😘", "💖", "🥰", "😉", "🌟", "👍", "✨", "😜", "🤗", "😇"]
 
     SYSTEM_PROMPT = (
