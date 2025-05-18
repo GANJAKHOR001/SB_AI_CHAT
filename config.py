@@ -12,7 +12,8 @@ AUTH_CHANNEL = int(getenv("AUTH_CHANNEL", "-1002457181322"))
 FSUB = getenv("FSUB", True)
 WEB_APP = getenv("WEB_APP", True)
 
-set GOOGLE_API_KEY=AIzaSyCdTbKMDxg7YyQXe2rihjZQ29CuKXbl8RY
+
+GOOGLE_API_KEY = getenv("GOOGLE_API_KEY", "AIzaSyCdTbKMDxg7YyQXe2rihjZQ29CuKXbl8RY")
 
 
 
