@@ -8,5 +8,8 @@ COPY . /app/
 WORKDIR /app/
 RUN pip3 install -U -r requirements.txt
 
+pip install flask google-generativeai python-dotenv
+
+
 
 CMD python3 -m ChatBot 
